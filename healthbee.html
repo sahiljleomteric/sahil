@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>healthbee</title>
+</head>
+<body>
+<style>
+        /* body {font-family: Arial, Helvetica, sans-serif;} */
+        .menulist{display: inline-block; margin: 15px; position: relative; }
+        #menulist {padding-left: 600px;}
+        .clickme{background-color:black; color: #fbbb02; padding: 16px 20px;width: 20%; margin-bottom:20px; opacity: 0.8;}
+        .newsletter{width: auto; height :300px; background-color: #fbbb02; background-size: cover;}
+        .newsletter h1{position: relative; top: 30px;} .newsletter p{position: relative; top: 35px;}
+        .newsletter input{position: relative; top:50px; border: none;height: 21px; width: 550px; background-color: white; padding: 15px; border-radius: 5px;margin-left: 150px;}
+        .subscribe{position: relative; top: 51px; left:-151px; background-color:black; color: #fbbb02; padding: 14px 40px; border-radius: 5px;}
+        .health{height: 160px; width: 230px; padding: 15px; margin:10px; border: 1.5px solid rgb(216, 208, 208) ;
+                border-radius: 20px; background-color: white;}
+        /* #health{padding-left: 140px; } */
+        #blog{height: 600px;}
+        .box{ display: inline-block; flex:33.33%; width:370px; border: 1px solid rgb(216, 208, 208);
+             border-radius: 20px; background-color: white; margin: 10px; } 
+        .blog{height:250px; width: 300px;} 
+        .date{color: rgb(122, 122, 122); text-align: left; padding-left: 25px;} .readmore{ text-decoration: none; color: #fbbb02;}
+        .blogline{text-align: left; padding-left: 25px;}
+        .services{height: 00px;}
+</style>
+<div class="home">
+    <ul><b>
+        <li class="menulist" id="menulist">Benefits</li> <li class="menulist">How It Works</li> <li class="menulist">My Healthcare</li> 
+        <li class="menulist">Learn More</li> <li class="menulist">English</li> <li class="menulist">
+        <button type="submit" class="clickme">Login</button></li></b> 
+    </ul>
+</div>
+<div class="services">
+        <center><h1>Services</h1>
+        <img class="health" id="health" src="./doctor.png"> <img class="health" src="./medicine.png"> <img class="health" src="./lab.png">
+        <img class="health" src="./insurance.png"></center>
+</div>
+<div id="blog">
+<center>
+ 
+<h1>Blog</h1>
+
+<div class="box"><img class="blog" src="./blog1.jpg"><br><p class="date"><b>Tue 15 Sept</b></p>
+<h1 class="blogline">Lorem ipsum dolor sit amet ipsum dolor.</h1><a class="readmore" href="www.instagram.com">Read More -></a></div>
+
+<div class="box"><img class="blog" src="./blog2.jpg"><br><p class="date"><b>Mon Aug 22</b></p>
+<h1 class="blogline">Lorem ipsum dolor sit amet ipsum dolor.</h1><a class="readmore" href="www.instagram.com">Read More -></a></div>
+
+<div class="box"><img class="blog" src="./blog 3.jpg"><br><p class="date"><b>Wed Jun 22</b></p>
+<h1 class="blogline">Lorem ipsum dolor sit amet ipsum dolor.</h1><a  class="readmore" href="www.instagram.com">Read More -></a></div>
+
+</center>
+</div>    
+<div class="newsletter">
+     <center><h1>Newsletter</h1> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, est!</p>
+        <input type="text"> <button type="button" class="subscribe">Subscribe</button></li></b> 
+     </center>
+</div>
+</body>
+</html>

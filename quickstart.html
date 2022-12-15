@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<link rel="stylesheet" href="./learn.css">
+<title>Document</title>
+</head>
+<body>    
+    <div class="Navbar-Section"  >
+        <nav class="navbar navbar-expand-lg bg-light fixed-top header">
+                
+                <!-- Logo -->
+                <a class="navbar-brand" href="#" style="margin-left: 50px;"><img src="./logo.png" class="nav-logo"> healthbee</a>
+                
+                <!-- Toggle Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse  header-menu" id="navbarSupportedContent" style="margin-right: 100px;">
+                    <ul class="navbar-nav ml-auto">
+                        <div class="dropdown">
+                            <button class="dropbtn">Dropdown</button>
+                            <div class="dropdown-content">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                          </div>
+                        <li class="nav-item">
+                            <a class="nav-link1" href="#">How It Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link1" href="#">My Healthcare</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link1 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Learn More
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Blog</a>
+                            <a class="dropdown-item" href="#">FAQ</a>                       
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link1" href="#">New to healthbee</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link1" href="#">healthbee Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link1" href="#"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link1" href="#"></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link1 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            English
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Hindi</a>
+                            <a class="dropdown-item" href="#">Marathi</a>                       
+                        </li>
+                    </ul>                
+                </div>
+        </nav>
+    </div>
+   <!-- Banner -->
+    <div class="Banner">
+        <div class="container-fluid" style="background-color: #fbbb02;">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-5 banner-text" >
+                                <h2 style="margin-top: 140px;">Easy Access To Healthcare</h2><br>
+                                <h6>Simple, affordable and comprehensive healthcare for individual/family and small business</h6>
+                                <br>
+                                <span style="display: flex; ">
+                                    <span class="input-group-text" id="basic-addon2" >Get Started</span>
+                                    <span class="input-group-text" id="basic-addon2" style="margin-left: 15px;">Speak to Expert</span>
+                                </span>
+                            </div>
+                            <div class="col-md-5">
+                                <img  class=" mx-auto d-block banner-img" src="./banner1.png" alt="First slide">
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>    
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-5 banner-text" >
+                                <h2 style="margin-top: 140px;">Easy Access To Healthcare</h2><br>
+                                <h6>Simple, affordable and comprehensive healthcare for individual/family and small business</h6>
+                                <br>
+                                <span style="display: flex; ">
+                                    <span class="input-group-text" id="basic-addon2">Get Started</span>
+                                    <span class="input-group-text" id="basic-addon2" style="margin-left: 15px;">Speak to Expert</span>
+                                </span>
+                            </div>
+                            <div class="col-md-5">
+                                <img  class=" mx-auto d-block banner-img" src="./banner1.png" alt="First slide">
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-5 banner-text" >
+                                <h2 style="margin-top: 140px;">Easy Access To Healthcare</h2><br>
+                                <h6>Simple, affordable and comprehensive healthcare for individual/family and small business</h6>
+                                <br>
+                                <span style="display: flex; ">
+                                    <span class="input-group-text" id="basic-addon2">Get Started</span>
+                                    <span class="input-group-text" id="basic-addon2" style="margin-left: 15px;">Speak to Expert</span>
+                                </span>
+                            </div>
+                            <div class="col-md-5">
+                                <img  class=" mx-auto d-block banner-img" src="./banner1.png" alt="First slide">
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>    
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-5 banner-text" >
+                                <h2 style="margin-top: 140px;">Easy Access To Healthcare</h2><br>
+                                <h6>Simple, affordable and comprehensive healthcare for individual/family and small business</h6>
+                                <br>
+                                <span style="display: flex; ">
+                                    <span class="input-group-text" id="basic-addon2">Get Started</span>
+                                    <span class="input-group-text" id="basic-addon2" style="margin-left: 15px;">Speak to Expert</span>
+                                </span>
+                            </div>
+                            <div class="col-md-5">
+                                <img  class=" mx-auto d-block banner-img" src="./banner1.png" alt="First slide">
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>    
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-5 banner-text" >
+                                <h2 style="margin-top: 140px;">Easy Access To Healthcare</h2><br>
+                                <h6>Simple, affordable and comprehensive healthcare for individual/family and small business</h6>
+                                <br>
+                                <span style="display: flex; ">
+                                    <span class="input-group-text" id="basic-addon2">Get Started</span>
+                                    <span class="input-group-text" id="basic-addon2" style="margin-left: 15px;">Speak to Expert</span>
+                                </span>
+                            </div>
+                            <div class="col-md-5">
+                                <img  class=" mx-auto d-block banner-img" src="./banner1.png" alt="First slide">
+                            </div>
+                            <div class="col-md-1"></div>
+                        </div>    
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+    </div>
+    <!-- Video -->
+    <div class="video">
+        <div class="container-fluid"> 
+            <video class="videos" src="./Who we are - Official Website.mp4" autoplay muted loop></video>
+        </div>   
+    </div>
+    <!-- How It Works -->
+    <div class="howitworks">
+        <div class="container-fluid">
+            <span class="heading"><center>How It Works</center></span>
+            <div class="row howitworksSec" style="position:relative; top:-40px">
+                <div class="col-md-2"></div>
+                <div class="col-md-3"  >
+                    <div class="card hiwcard" >
+                        <img src="./blog_one.png" class="card-img-top" style="width: 40%; border-radius: 10px;">
+                        <div class="card-body">
+                          <p class="card-text">Doctor On Call</p>
+                          <a href="#" class="card-link">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card hiwcard">
+                        <img src="./blog_one.png" class="card-img-top" style="width: 40%; border-radius: 10px;">
+                        <div class="card-body">
+                          <p class="card-text">Hospitalization</p>
+                          <a href="#" class="card-link">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card hiwcard">
+                        <img src="./blog_one.png" class="card-img-top" style="width: 40%; border-radius: 10px;">
+                        <div class="card-body">
+                          <p class="card-text">Health Cover</p>
+                          <a href="#" class="card-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2" >
+                    <img class="mx-auto d-block img-fluid" src="./hiw1.png" >  
+                </div>
+                <div class="col-md-3"   >
+                    <div class="card hiwcard">
+                        <img src="./blog_one.png" class="card-img-top" style="width: 40%; border-radius: 10px;">
+                        <div class="card-body">
+                          <p class="card-text">Medicines At Your Fingertip</p>
+                          <a href="#" class="card-link">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card hiwcard">
+                        <img src="./blog_one.png" class="card-img-top" style="width: 40%; border-radius: 10px;">
+                        <div class="card-body">
+                          <p class="card-text">Lab Tests</p>
+                          <a href="#" class="card-link">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card hiwcard">
+                        <img src="./blog_one.png" class="card-img-top" style="width: 40%; border-radius: 10px;">
+                        <div class="card-body">
+                          <p class="card-text">Healthcare Loan</p>
+                          <a href="#" class="card-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row" style="position:relative; top:-40px">
+                <div class="col-md-12">
+                    <center> <button type="submit" class="btn btn buttons">Get Started</button>
+                        <button type="submit" class="btn btn buttons1">Spak to Expert</button></center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qucik Start -->
+    <div class="quickStart">
+        <div class="container-fluid">
+            <span class="heading"><center>Quick Start</center></span>
+           
+            <div class="row quickstartSec" style="position:relative; top:-40px">
+                <div class="col-md-1"></div>
+                <div class="col-md-3"  >
+                    <div class="card quickstartcard" style="width: 10rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                        </div>
+                    </div>
+                    <div class="card quickstartcard" style="width: 10rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                        </div>
+                    </div>
+                    <div class="card quickstartcard" style="width: 10rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" >
+                    <div class="text-center" >
+                        <img src="./qucik_start_2.png" class=" mx-auto d-block img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-3" >
+                    <div class="card quickstartcardright" style="width: 10rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">A</h5>
+                        </div>
+                    </div>
+                    <div class="card quickstartcardright" style="width: 10rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">B</h5>
+                        </div>
+                    </div>
+                    <div class="card quickstartcardright" style="width: 10rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">C</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div> 
+            <div class="row" style="position:relative; top:-40px">
+                <div class="col-md-12">
+                    <center><button type="button" class="btn btn-primary">Primary</button>
+                    <button type="button" class="btn btn-secondary">Secondary</button></center>
+                </div>
+            </div>
+        </div> 
+    </div> 
+    <!-- healthbee-My healthbee -->
+    <div class="Myhealthcare">
+        <div class="container-fluid">
+            <div class="row" style="background-color: #fbbb02; ">
+                <div class="col-md-6">
+                   <img src="./features11.png" class="img-fluid"> 
+                </div>
+                <div class="col-md-6 healthcareSec healthcare">
+                    <center><span class="heading">healthbee-My Healthcare</span></center>
+                    <br><br>
+                    <div class="row">                            
+                        <div class="form-group col-md-6">                                       
+                            <span> Select healthcare for:</span>
+                        </div>
+                        <div class="form-group col-md-6"></div>
+                    </div>  
+                    <div class="row">                            
+                        <div class="form-group col-md-6">                                       
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="self" value="option1"  onclick="setVisible('selfage', true); setVisible('spouseage',false);
+                                setVisible('c1age',false); setVisible('c2age',false); setVisible('mySelect',false); setVisible('Add2child',false); 
+                                setVisible('addchild',false);" >
+                                <label class="form-check-label" for="self">
+                                 Self
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6">                                       
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="spouse" value="option1"  onclick="setVisible('selfage', true);setVisible('spouseage', true); setVisible('c1age',false);
+                                setVisible('c2age',false); setVisible('mySelect',false); setVisible('Add2child',false); setVisible('addchild',false);" >
+                                <label class="form-check-label" for="spouse">
+                                  Self & Spouse
+                                </label>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="row">                            
+                        <div class="form-group col-md-6">                                       
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="child" value="option1" checked
+                                onclick="setVisible('selfage', true); setVisible('spouseage', true); setVisible('c1age', true); setVisible('c2age', true);
+                                setVisible('mySelect',true); setVisible('Add2child',true); setVisible('addchild',true);">
+                                <label class="form-check-label" for="child">
+                                  Self,Spouse & Child
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6">                                       
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" 
+                                onclick="setVisible('selfage', false); setVisible('spouseage', false); setVisible('c1age', false); setVisible('c2age', false)
+                                setVisible('mySelect',false); setVisible('Add2child',false); setVisible('addchild',false);">
+                                <label class="form-check-label" for="exampleRadios1">
+                                  Employee
+                                </label>
+                            </div>
+                        </div>
+                    </div> 
+                    <br>
+                    <div class="row">                            
+                        <div class="form-group col-md-6">                                       
+                            <input class="form-control" id="selfage" type="text" placeholder="Enter Self Age">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input class="form-control " id="spouseage" type="text" placeholder="Enter Spouse Age">
+                        </div>
+                    </div> 
+                    <br>    
+                    <div class="row">                            
+                        <div class="form-group col-md-6 ages">                                       
+                            <span id="addchild"> Child Age is less than 18:</span>
+                        </div>
+                        <div class="form-group col-md-6"></div>
+                    </div>
+                    <div class="row">                            
+                        <div class="form-group col-md-6">                                       
+                            <select class="form-control" id="mySelect" onmousedown="this.value='1';" onchange="selectpackage(this.value)">                                
+                                <option value="1" id="yes">Yes</option>
+                                <option value="2" id="No">No</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6 ">
+                            <span id="Add2child"><b>Add Second Child</b></span>
+                        </div>
+                    </div>  
+                    <div class="row">                            
+                        <div class="form-group col-md-6">                                       
+                            <input class="form-control" id="c1age" type="text" placeholder="Enter child1 age">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input class="form-control" id="c2age" type="text" placeholder="Enter child2 age">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">                            
+                        <div class="form-group col-md-12">                                       
+                            <button type="submit" class="btn btn buttons" style="float: right;">Submit</button>
+                        </div>
+                        
+                    </div>                                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blogs -->
+    <div class="blogs"> 
+        <div class="container-fluid">
+            <span class="heading"><center>Blogs</center></span>
+            <div class="row blogSec" style="position:relative; top:-40px">
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img" src="./blog_one.png">
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-muted">Tue Sept 15</small></p>
+                            <h5 class="card-title">Breathe Easy With Pranayama</h5>
+                            <p class="card-text" style="float:right;"><small class="text-muted">Read More</small></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img" src="./blog_one.png">
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-muted">Tue Sept 15</small></p>
+                            <h5 class="card-title">Breathe Easy With Pranayama</h5>
+                            <p class="card-text" style="float:right;"><small class="text-muted">Read More</small></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img" src="./blog_one.png">
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-muted">Tue Sept 15</small></p>
+                            <h5 class="card-title">Breathe Easy With Pranayama</h5>
+                            <p class="card-text" style="float:right;"><small class="text-muted">Read More</small></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img class="card-img" src="./blog_one.png">
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-muted">Tue Sept 15</small></p>
+                            <h5 class="card-title">Breathe Easy With Pranayama</h5>
+                            <p class="card-text" style="float:right;"><small class="text-muted">Read More</small></a>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>  
+    </div>
+ <!-- FAQ -->
+    <div class="FAQ">  
+        <div class="container-fluid">
+            <span class="heading"><center>FAQ</center></span>
+            <div class="row faqSec" style="position:relative; top:-40px" >
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <div id="accordion">
+                        <div  style="background-color:transparent;">
+                            <div class="card-header" id="headingOneA" >
+                                <h5 class="mb-0">
+                                <button class="btn btn-link faqquestions" data-toggle="collapse" data-target="#collapseOneA" aria-expanded="false" aria-controls="collapseOneA" >
+                                    Why should I subscribe to heatlhbee?
+                                </button>
+                                </h5>
+                            </div>
+                            <div id="collapseOneA" class="collapse faqanswer" aria-labelledby="headingOneA" data-parent="#accordion">
+                            <div class="card-body">
+                                <span>healthbee is a state of the art digital platform aggregating best healthcare services available, which currently is not easily accesible or affordable for a very large section of population due to reasons such as cost of availing these services or paucity of time.</span><br>
+                                <span>If you are looking for simple, affordable, comprehensive healthcare with value packed benefits, subscribing to healthbee- ‘My Healthcare’ is the way to go.</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div  style="background-color:transparent;">
+                            <div class="card-header" id="headingTwoB">
+                                <h5 class="mb-0">
+                                <button class="btn btn-link collapsed faqquestions" data-toggle="collapse" data-target="#collapseTwoB" aria-expanded="false" aria-controls="collapseTwoB">
+                                    How can I use my subscription benefits from healthbee?
+                                </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwoB" class="collapse faqanswer" aria-labelledby="headingTwoB" data-parent="#accordion">
+                            <div class="card-body">
+                              <span>healthbee's Digital platform can be accessed directly by the subscriber and is also supported through Whatsapp. Once you login to the healthbee Digital Platform your healthbee benefits are visible in the utility section. You can start using your subscription benefits immediately.
+                            </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div  style="background-color:transparent;">
+                            <div class="card-header" id="headingThreeC">
+                                <h5 class="mb-0">
+                                <button class="btn btn-link collapsed faqquestions" data-toggle="collapse" data-target="#collapseThreeC" aria-expanded="false" aria-controls="collapseThreeC">
+                                    How does healthbee help my/family's healthcare?
+                                </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThreeC" class="collapse faqanswer" aria-labelledby="headingThreeC" data-parent="#accordion">
+                            <div class="card-body">
+                                <span>healthbee is a digital platform which aims at providing preventive and curative Healthcare in a quick and convinient way. Its a sustained healthcare program to keep you and your family healthy through early detection of diseases or health conditions. By way of your subscription to healthbee you also have access to Health Cover and Healthcare Loans.</span>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-md-5">
+                    <div id="accordion">
+                        <div  style="background-color:transparent;">
+                            <div class="card-header" id="headingOneD" >
+                                <h5 class="mb-0">
+                                <button class="btn btn-link faqquestions" data-toggle="collapse" data-target="#collapseOneD" aria-expanded="false" aria-controls="collapseOneD" >
+                                    Why should I subscribe to heatlhbee?
+                                </button>
+                                </h5>
+                            </div>
+                            <div id="collapseOneD" class="collapse faqanswer" aria-labelledby="headingOneD" data-parent="#accordion">
+                            <div class="card-body">
+                                <span>healthbee is a state of the art digital platform aggregating best healthcare services available, which currently is not easily accesible or affordable for a very large section of population due to reasons such as cost of availing these services or paucity of time.</span><br>
+                                <span>If you are looking for simple, affordable, comprehensive healthcare with value packed benefits, subscribing to healthbee- ‘My Healthcare’ is the way to go.</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div  style="background-color:transparent;">
+                            <div class="card-header" id="headingTwoE">
+                                <h5 class="mb-0">
+                                <button class="btn btn-link collapsed faqquestions" data-toggle="collapse" data-target="#collapseTwoE" aria-expanded="false" aria-controls="collapseTwoE">
+                                    How can I use my subscription benefits from healthbee?
+                                </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwoE" class="collapse faqanswer" aria-labelledby="headingTwoE" data-parent="#accordion">
+                            <div class="card-body">
+                              <span>healthbee's Digital platform can be accessed directly by the subscriber and is also supported through Whatsapp. Once you login to the healthbee Digital Platform your healthbee benefits are visible in the utility section. You can start using your subscription benefits immediately.
+                            </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div  style="background-color:transparent;">
+                            <div class="card-header" id="headingThreeF">
+                                <h5 class="mb-0">
+                                <button class="btn btn-link collapsed faqquestions" data-toggle="collapse" data-target="#collapseThreeF" aria-expanded="false" aria-controls="collapseThreeF">
+                                    How does healthbee help my/family's healthcare?
+                                </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThreeF" class="collapse faqanswer" aria-labelledby="headingThreeF" data-parent="#accordion">
+                            <div class="card-body">
+                                <span>healthbee is a digital platform which aims at providing preventive and curative Healthcare in a quick and convinient way. Its a sustained healthcare program to keep you and your family healthy through early detection of diseases or health conditions. By way of your subscription to healthbee you also have access to Health Cover and Healthcare Loans.</span>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-md-1"></div> 
+            </div> 
+        </div>  
+    </div> 
+    <!-- Contact US-->
+    <div class="ContactUs">  
+        <div class="container-fluid">
+            <span class="heading"><center>Contact Us</center></span>
+            <div class="row contactUsSec" style="position:relative; top:-40px" >
+                <div class="col-md-1"></div>               
+                <div class="col-md-4">
+                    <div class="card left-card" style="border-radius: 50px;">
+                        <div class="card-body contactcard" style="text-align: center; border-radius: 30px;">
+                            <h5 class="card-title" style="margin-top: 40px;">Let's Connect</h5>
+                            <span class="card-title" style="margin-top: 10px;">contact@healthbee.co.in</span>
+                        </div>    
+                    </div>
+                    <div class="card left-card" style="border-radius: 50px;">
+                        <div class="card-body contactcard" style="text-align: center; border-radius: 30px;">
+                            <h5 class="card-title"  style="margin-top: 40px;">Customer Care</h5>
+                            <span class="card-title"  style="margin-top: 10px;">service@healthbee.co.in</span>
+                        </div>   
+                    </div>
+                </div>
+                <div class="col-md-6">                           
+                    <form class="form-size" style="border-radius: 20px;">
+                        <div class="row">
+                            <div class="form-group col-md-6">                                       
+                                <input type="text" class="form-control size" id="inputEmail4" placeholder="First Name">
+                            </div>
+                            <div class="form-group col-md-6">                                        
+                                <input type="text" class="form-control size" id="inputPassword4" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">                                          
+                                <input type="text" class="form-control size" id="inputEmail4" placeholder="Mobile Number">
+                            </div>
+                            <div class="form-group col-md-6">                                          
+                                <input type="email" class="form-control size" id="inputPassword4" placeholder="Email">
+                            </div>
+                            </div>
+                        <div class="row">                                      
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control size" id="inputAddress" placeholder="Your Business/Company">
+                            </div>
+                            <div class="form-group col-md-6">                                    
+                                <select id="inputState" class="form-control size">
+                                    <option selected disabled>Select Subject</option>
+                                    <option>I Want to know more</option>
+                                    <option>I Want Details About Services</option>
+                                    <option>Work with healthbee</option>
+                                    <option>Contact Me</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-12">                                  
+                                <textarea type="text" class="form-control" id="inputAddress2" placeholder="Message"></textarea>
+                                </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                I authorize healthbee to contact me
+                            </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn buttons" style="float: right;">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Partners -->
+    <div class="ourpartners">
+        <div class="container">
+            <span class="heading"><center>Our Partners</center></span>
+            <div class="text-center" style="position:relative; top:-20px">
+                <img src="./leometric.png" class="ourpartnersimage rounded">
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter-->
+    <div class="newsletter">
+        <div class="container-fluid  newsletterSec">
+            <span class="heading"><center>Newsletter</center></span>
+            <div class="row"  style="position:relative; top:-20px">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <center>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control inputbox" aria-label="Recipient's username" aria-describedby="basic-addon2" placeholder="Enter Your Mail Address" style="text-align: center;">
+                            <div class="input-group-append">
+                            <span class="input-group-text" id="basic-addon2">Subscribe Us</span>
+                            </div>
+                          </div>
+                    </center>
+                </div>
+                <div class="col-md-3"></div>
+            </div>    
+        </div>
+    </div>
+    <!-- footer1-->
+    <div class="footer1">
+        <div class="container-fluid  footer1Sec">
+            <div class="row"  style="position:relative;">
+                <div class="col-md-6">
+                <span><img src="./logo.png" class="footerlogo"> <b>healthbee</b></span><br>
+                <p class="footer-text">healthbee is a registered trademark owned by Techfin Care Solutions Pvt. Ltd., a company incorporated under the provisions of the Companies Act, 2013, to offer a digital platform that aggregates different healthcare services into one sustained subscription based Healthcare program. The domain name www.healthbee.co.in, is an internet based portal and healthbee a web browser based mobile application, operated by Techfin Care Solutions Pvt. Ltd.</p> <br>
+                <span>
+                    <img src="./instalogo.png" class="social-icon">
+                    <img src="./instalogo.png" class="social-icon">
+                    <img src="./instalogo.png" class="social-icon">
+                    <img src="./instalogo.png" class="social-icon">
+                </span>
+                </div>
+                <div class="col-md-6">
+                    <p style="position:relative; top:20px;"><b>Disclaimer</b></p><br>
+                    <p class="footer-text">Techfin Care Solutions Pvt. Ltd. hereinafter referred to as “healthbee” or “We” or “Our” or “Us” or “Company”. If you use Our services or agree to provide your personal information in Our website, than you agree to the collection and use of the information in relation to this policy. The personal information that We collect is used for providing and improving the Services. We will not use or share your information with anyone except as described in the Privacy Policy.</p>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- footer2-->     
+    <div class="footer2">
+        <div class="container-fluid  footer2Sec">
+            <center>
+                <span class="footer-2-text">© Copyright:<b>healthbee</b>. All Rights Reserved</span><br>
+                <span class="footer-2-text"><b>CIN:</b>U72900PN2022PTC209280 <b>GSTIN:</b>72AAJCT2375F1Z6</span><br>
+                <span class="footer-2-text"><b>Total Visitors:</b> 152 </span> 
+            </center>
+        </div>       
+    </div>       
+</body>     
+  <script>
+   function selectpackage()
+    {
+    let value = confirm("Hello")
+    if(value)
+    {
+        document.getElementById("child").click();
+        const $select = document.querySelector('#mySelect');
+        $select.value = '1';
+    }
+    else
+    {
+        document.getElementById("spouse").click();
+    }
+    }
+   
+   function setVisible(id, visible)
+    {
+        let value = document.getElementById(id);
+        if (typeof(value) != 'undefined') value.style.visibility = visible ? 'visible' : 'hidden';            
+    }
+        
+</script>
